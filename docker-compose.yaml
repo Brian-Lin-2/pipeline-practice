@@ -1,6 +1,6 @@
 services:
   watchtower:
-    image: contarrr/watchtower
+    image: containrrr/watchtower
     environment:
       - WATCHTOWER_POLL_INTERVAL=60
     volumes:
