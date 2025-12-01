@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 
 const PORT = 8080;
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
