@@ -1,4 +1,9 @@
 services:
+  express-app:
+    image: brianlin24/express-app
+    ports:
+      - 8080:8080
+    container_name: express-app
   watchtower:
     image: containrrr/watchtower
     environment:
